@@ -321,6 +321,7 @@ minetest.register_node("castle:ironbound_chest",{
 			)
 		end
 	end,
+	on_blast = function() end,
 })
 
 minetest.register_craft({
